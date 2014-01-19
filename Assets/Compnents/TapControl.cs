@@ -3,9 +3,11 @@ using System.Collections;
 
 public class TapControl : MonoBehaviour {
 
+	public GameObject kobit;
+
 	// Use this for initialization
 	void Start () {
-	
+		kobit = GameObject.Find("kobito");
 	}
 	
 	// Update is called once per frame
@@ -18,6 +20,7 @@ public class TapControl : MonoBehaviour {
 			if (hitObject) {
 				hitObject.collider.gameObject.SendMessage("TupDown");
 				hitObject.collider.gameObject.GetComponent<AudioSource>().Play();
+				kobit.gameObject.SendMessage("PutMessage", "hello");
 				Debug.Log("hit object is " + hitObject.collider.gameObject.name);
 			}
 		}

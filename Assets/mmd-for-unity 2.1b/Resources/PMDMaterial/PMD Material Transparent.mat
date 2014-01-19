@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PMD Material Transparent
+  m_Shader: {fileID: 4800000, guid: d9a28a4fb26b1bf4aa2074b1b9e5a000, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonTex
+        second:
+          m_Texture: {fileID: 2800000, guid: df2482a76bd514960b85b7ba12b9ea17, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SphereAddTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SphereMulTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0
+      data:
+        first:
+          name: _Opacity
+        second: .800000012
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .843930662, g: .858908594, b: .113923594, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _AmbColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
