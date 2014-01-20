@@ -18,7 +18,7 @@ public class PutIndicatorControl : MonoBehaviour {
 	
 		if( 0 < putTime)
 		{
-			indicator.transform.position = new Vector3( this.transform.position.x+1, this.transform.position.y+2, -1);
+			indicator.transform.position = new Vector3( this.transform.position.x+1.5f, this.transform.position.y+3, -1);
 
 		}
 		else
@@ -33,6 +33,16 @@ public class PutIndicatorControl : MonoBehaviour {
 	{
 		indicator.transform.FindChild("text").GetComponent<TextMesh>().text = mes;
 		putTime = 6;
+	}
+
+	void RunApps()
+	{
+		PutMessage("垣内ゼミのみなさん。\nこんにちは!!!");
+	}
+
+	void StopApps()
+	{
+		putTime = 0;
 	}
 
 }
