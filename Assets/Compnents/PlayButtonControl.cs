@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayButtonControl : MonoBehaviour {
 	
 		GameObject stopButton;
+		public GameObject kobit;
 		
 		// Use this for initialization
 		void Start () {
@@ -19,6 +20,7 @@ public class PlayButtonControl : MonoBehaviour {
 		{
 			stopButton.transform.position = new Vector3( stopButton.transform.position.x, stopButton.transform.position.y, 0);
 			this.transform.position = new Vector3( this.transform.position.x, this.transform.position.y, 1); //invisible
+			kobit.BroadcastMessage("RunApps");
 		}
 
 
