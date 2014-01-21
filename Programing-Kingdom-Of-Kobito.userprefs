@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\takahiro\Documents\GitHub\Programing-Kingdom-Of-Kobito\Assets\Compnents\ChooseTabLayer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\takahiro\Documents\GitHub\Programing-Kingdom-Of-Kobito\Assets\ProgramBlockControl.cs">
     <Files>
-      <File FileName="c:\Users\takahiro\Documents\GitHub\Programing-Kingdom-Of-Kobito\Assets\Compnents\ChooseTabLayer.cs" Line="4" Column="46" />
+      <File FileName="Assets\KobitControl.cs" Line="4" Column="14" />
+      <File FileName="c:\Users\takahiro\Documents\GitHub\Programing-Kingdom-Of-Kobito\Assets\Compnents\ChooseTabLayer.cs" Line="4" Column="14" />
+      <File FileName="c:\Users\takahiro\Documents\GitHub\Programing-Kingdom-Of-Kobito\Assets\ProgramBlockControl.cs" Line="4" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
